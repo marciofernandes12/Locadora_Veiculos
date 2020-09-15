@@ -1,0 +1,10 @@
+body{
+    background: rgb(222, 218, 218);
+    background: radial-gradient(circle, rgb(6, 75, 193) 30%, rgb(10, 50, 146) 70%);
+
+}
+h1{
+    text-align: center;
+    color:#FFF;
+    font-family: "Berlin Sans FB";
+}

@@ -1,0 +1,90 @@
+
+body{
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    background: rgb(222, 218, 218);
+    background: radial-gradient(circle, rgb(6, 75, 193) 30%, rgb(10, 50, 146) 70%);
+    font-family: "Berlin Sans FB"
+}
+label{
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.875em;
+}
+h1{
+    font-family: "Berlin Sans FB";
+    color: #fff;
+    text-align: center;
+}
+.form-content{
+    background-color: rgba(0,0,0,0.05);
+    max-width: 350px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 0 20px 2px rgba(255,255,255,0.2);
+    font-family: "Berlin Sans FB";
+}
+
+.form-control{
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-family: "Berlin Sans FB";
+}
+.form-control:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: none;
+}
+.form-control::placeholder{
+    color: #ccc;
+    font-weight: 400;
+}
+.form-control:disabled, .form-control[readonly]{
+    background-color: rgba(0,0,0,0.3);
+}
+.img-content{
+    width: 150px;
+    margin: auto;
+}
+
+.button-cadastrar{
+    border-radius: 0;
+    height: 50px;
+    background-color: #ff7600;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    box-shadow: none;
+    transition: all 0.25s ease-in-out;
+}
+.voltar{
+    color: #ddd;
+    text-decoration: underline;
+    display: flex;
+}
+
+
+
+
+
